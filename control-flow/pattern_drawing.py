@@ -1,13 +1,15 @@
-size = int(input("Enter the size of pattern:"))
-        
+
+size = int(input("Enter the size of pattern: "))
+
+
 row = 0
 
-# Outer loop - while loop for rows
 
 while row < size:
-
-    for x in range(size):
+    col = 0
+    
+    while col < size:
         print("*", end="")
-
-    print()
+        col += 1
+    print()  
     row += 1
